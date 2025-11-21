@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Protótipo Bootstrap" />
+	<meta property="og:description" content="Protótipo TCC (Bootstrap)" />
+	<meta name="description" content="Protótipo TCC (Bootstrap)"/>
+	
+	<link rel="stylesheet" href="../assets/app.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%' y='60%' text-anchor='middle' dominant-baseline='middle' font-size='65'>🍄</text></svg>">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+	<title>Exercícios</title>
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark py-3" aria-label="Navbar">
+		<div class="container d-flex gap-3 justify-content-start">
+			<a class="text-decoration-none text-bg-dark fw-semibold hover-opacity" href="./conclusao.html" aria-label="Botão para home">← Voltar</a>
+			<a class="text-decoration-none text-bg-dark fw-semibold hover-opacity" href="../index.html" aria-label="Botão para home">Home</a>
+			<button class="text-bg-dark fw-semibold border-0 hover-opacity" aria-label="Botão para abrir menu"
+				data-bs-toggle="offcanvas" 
+        data-bs-target="#menuLateral" 
+        aria-controls="menuLateral">Menu</button>
+		</div>
+	</nav>
+
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral" aria-labelledby="menuLateralLabel">
+		<div class="offcanvas-header border-bottom">
+			<h6 class="offcanvas-title" id="menuLateralLabel">Menu - Módulo 1</h6>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar menu"></button>
+		</div>
+		<div class="offcanvas-body p-0">
+			<div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 100%;">
+				<div class="list-group list-group-flush border-bottom scrollarea">
+					<a href="../index.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Home</a>
+					<a href="./introducao.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Introdução</a>
+					<a href="./aprofundamento-1.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Aprofundamento: Como ocorre a fotossíntese</a>
+					<a href="./aprofundamento-2.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Aprofundamento: As duas fases da fotossíntese</a>
+					<a href="./conclusao.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Conclusão do módulo</a>
+					<a href="./exercicios.html" class="list-group-item list-group-item-action py-4 active fw-semibold fs-6" aria-current="true">Exercícios</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main class="pb-5">
+		<div class="py-6 bg-lightgray">
+			<div class="tight-container">
+				<p class="fs-7">Parte 5 de 5</p>
+				<h2 class="fw-bold">Exercícios</h2>
+			</div>
+    </div>
+		<div class="tight-container py-5 text-responsive">
+			<p class="mt-lg-3 fw-bold">Hora de colocar a mão na massa!</p>
+      <p class="mt-lg-4">Agora que você já entendeu os principais conceitos sobre a fotossíntese, é hora de testar seus conhecimentos! A seguir, responda aos exercícios propostos e veja o quanto aprendeu neste módulo.</p>
+      <hr class="my-4"/>
+      <div>
+        <p class="fw-bold">1. A fotossíntese é essencial para a vida na Terra porque:</p>
+        <ul class="list-unstyled">
+          <li class="mt-lg-3 mt-2">a) Consome oxigênio e libera gás carbônico, equilibrando a atmosfera.</li>
+          <li class="mt-lg-3 mt-2">b) Produz energia térmica para os organismos heterotróficos.</li>
+          <li class="mt-lg-3 mt-2">c) Transforma energia luminosa em energia química e libera oxigênio.</li>
+          <li class="mt-lg-3 mt-2">d) Permite que as plantas absorvam nutrientes do solo de forma direta.</li>
+        </ul>
+      </div>
+      <hr class="my-4"/>
+      <div>
+        <p class="fw-bold">2. A fase clara da fotossíntese ocorre nos cloroplastos e tem como principal característica:</p>
+        <ul class="list-unstyled">
+          <li class="mt-lg-3 mt-2">a) A fixação do gás carbônico e a formação da glicose.</li>
+          <li class="mt-lg-3 mt-2">b) A absorção de luz solar e a liberação de oxigênio a partir da água.</li>
+          <li class="mt-lg-3 mt-2">c) A absorção de sais minerais e a produção de amido.</li>
+          <li class="mt-lg-3 mt-2">d) O transporte de glicose para o interior das células.</li>
+        </ul>
+      </div>
+    </div>
+
+		<a href="../index.html" class="tight-container text-center d-block btn btn-dark py-2 fw-semibold">Ir para o próximo módulo</a>
+	</main>
+</body>
+</html>

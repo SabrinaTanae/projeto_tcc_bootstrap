@@ -1,0 +1,46 @@
+.banner {
+  height: 24rem;
+}
+
+@media (min-width: 992px) {
+  .banner {
+    height: 30rem;
+  }
+}
+
+.border-dark-bg {
+  border-color: rgb(51, 45, 45);
+}
+
+.tight-container {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hover-opacity:hover {
+  opacity: 0.8;
+}
+
+.bg-lightgray {
+  background-color: rgb(238, 238, 238);
+}
+
+.fs-7 {
+  font-size: 0.75rem;
+}
+
+.py-6 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.text-responsive {
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  .text-responsive {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Protótipo Bootstrap" />
+	<meta property="og:description" content="Protótipo TCC (Bootstrap)" />
+	<meta name="description" content="Protótipo TCC (Bootstrap)"/>
+	
+	<link rel="stylesheet" href="../assets/app.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%' y='60%' text-anchor='middle' dominant-baseline='middle' font-size='65'>🍄</text></svg>">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+	<title>Aprofundamento 1</title>
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark py-3" aria-label="Navbar">
+		<div class="container d-flex gap-3 justify-content-start">
+			<a class="text-decoration-none text-bg-dark fw-semibold hover-opacity" href="./introducao.html" aria-label="Botão para home">← Voltar</a>
+			<a class="text-decoration-none text-bg-dark fw-semibold hover-opacity" href="../index.html" aria-label="Botão para home">Home</a>
+			<button class="text-bg-dark fw-semibold border-0 hover-opacity" aria-label="Botão para abrir menu"
+				data-bs-toggle="offcanvas" 
+        data-bs-target="#menuLateral" 
+        aria-controls="menuLateral">Menu</button>
+		</div>
+	</nav>
+	
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral" aria-labelledby="menuLateralLabel">
+		<div class="offcanvas-header border-bottom">
+			<h6 class="offcanvas-title" id="menuLateralLabel">Menu - Módulo 1</h6>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar menu"></button>
+		</div>
+		<div class="offcanvas-body p-0">
+			<div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 100%;">
+				<div class="list-group list-group-flush border-bottom scrollarea">
+					<a href="../index.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Home</a>
+					<a href="./introducao.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Introdução</a>
+					<a href="./aprofundamento-1.html" class="list-group-item list-group-item-action py-4 active fw-semibold fs-6" aria-current="true">Aprofundamento: Como ocorre a fotossíntese</a>
+					<a href="./aprofundamento-2.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Aprofundamento: As duas fases da fotossíntese</a>
+					<a href="./conclusao.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Conclusão do módulo</a>
+					<a href="./exercicios.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Exercícios</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main class="pb-5">
+		<div class="py-6 bg-lightgray">
+			<div class="tight-container">
+				<p class="fs-7">Parte 2 de 5</p>
+				<h2 class="fw-bold">Aprofundamento: Como ocorre a fotossíntese</h2>
+			</div>
+    </div>
+		<div class="tight-container py-5 text-responsive">
+			<p class="mt-lg-3 fw-bold">Aprofundando um pouco no assunto...</p>
+			<p class="mt-lg-4">Durante a fotossíntese, as plantas absorvem luz solar, água (H₂O) e gás carbônico (CO₂). Dentro das células das folhas, existem estruturas chamadas cloroplastos, que contêm a clorofila, o pigmento verde responsável por capturar a energia luminosa.</p>
+			<p class="mt-lg-4">A partir desse processo, ocorre a transformação da energia solar em energia química, armazenada em moléculas como a glicose (C₆H₁₂O₆) — uma substância que serve de alimento e fonte de energia para as plantas. Como resultado dessa reação, é liberado oxigênio (O₂), fundamental para a respiração dos seres vivos.</p>
+			<p class="mt-lg-4">A equação geral da fotossíntese pode ser representada assim:</p>
+			<p class="mt-lg-4 text-center fst-italic fw-bold">6CO2 + 6H2O + Luz solar → C6H12O6 + 6O2</p>
+      <div class="mt-lg-4">
+        <img src="https://static.preparaenem.com/2022/05/fotossintese.png" alt="Imagem esquemática da fotossíntese" class="h-100 w-100" />
+      </div>
+      <p class="mt-lg-4">Essa fórmula resume o processo no qual o dióxido de carbono e a água, com a ajuda da luz solar, se transformam em glicose e oxigênio, demonstrando como a energia do Sol é convertida em vida.</p>
+		</div>
+
+		<a href="./aprofundamento-2.html" class="tight-container text-center d-block btn btn-dark py-2 fw-semibold">Continuar</a>
+	</main>
+</body>
+</html>

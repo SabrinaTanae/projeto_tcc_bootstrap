@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Protótipo Bootstrap" />
+	<meta property="og:description" content="Protótipo TCC (Bootstrap)" />
+	<meta name="description" content="Protótipo TCC (Bootstrap)"/>
+	
+  <link rel="stylesheet" href="./assets/app.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%' y='60%' text-anchor='middle' dominant-baseline='middle' font-size='65'>🍄</text></svg>">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+	<title>Página principal</title>
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark py-3" aria-label="Navbar">
+		<div class="container d-flex gap-3 justify-content-start">
+			<a class="text-decoration-none text-bg-dark fw-semibold hover-opacity" href="./index.html" aria-label="Botão para home">Home</a>
+			<button class="text-bg-dark fw-semibold border-0 hover-opacity" aria-label="Botão para abrir menu"
+				data-bs-toggle="offcanvas" 
+        data-bs-target="#menuLateral" 
+        aria-controls="menuLateral">Menu</button>
+		</div>
+	</nav>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral" aria-labelledby="menuLateralLabel">
+		<div class="offcanvas-header border-bottom">
+			<h6 class="offcanvas-title" id="menuLateralLabel">Menu - Módulo 1</h6>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar menu"></button>
+		</div>
+		<div class="offcanvas-body p-0">
+			<div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 100%;">
+				<div class="list-group list-group-flush border-bottom scrollarea">
+					<a href="./index.html" class="list-group-item list-group-item-action active py-4 fw-semibold fs-6" aria-current="true">Home</a>
+					<a href="./aulas/introducao.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Introdução</a>
+					<a href="./aulas/aprofundamento-1.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Aprofundamento: Como ocorre a fotossíntese</a>
+					<a href="./aulas/aprofundamento-2.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Aprofundamento: As duas fases da fotossíntese</a>
+					<a href="./aulas/conclusao.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Conclusão do módulo</a>
+					<a href="./aulas/exercicios.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Exercícios</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <main>
+    <div class="container py-5">
+      <div class="p-4 p-sm-5 mb-4 border border-1 bg-body-tertiary rounded-4 banner" 
+        style="background-image: url('https://cdn.pixabay.com/photo/2015/06/23/17/43/leaf-818936_1280.jpg');
+        background-size: cover;
+        background-position: center;">
+        <div class="container-fluid h-100 text-white d-flex flex-column justify-content-center">
+          <h1 class="display-5 fw-bold">Biologia - O Reino Vegetal</h1>
+          <div>
+            <a href="./aulas/introducao.html" class="btn btn-primary btn-lg-lg mt-5 px-4 fw-semibold">Iniciar aula</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-lg-stretch mb-4">
+        <div class="col-lg-6">
+          <div class="h-100 p-4 p-sm-5 text-bg-dark rounded-4 d-flex flex-column justify-content-center">
+            <h2 class="fw-semibold h2-lg h3">Continue de onde parou</h2>
+				    <p class="mt-3">Ao longo dos módulos, você conhecerá os processos vitais das plantas, como a fotossíntese, a respiração vegetal, o ciclo da água e as relações ecológicas que garantem a continuidade da vida na Terra.</p>
+            <div>
+              <a href="./aulas/introducao.html" class="mt-2 fw-semibold btn btn-outline-light px-3">Ir para a aula</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <div class="h-100 px-3 px-sm-4 py-4 bg-body-tertiary bg-light border rounded-4 d-flex flex-column justify-content-center">
+            <h4 class="fw-semibold">Módulo 1 - Fotossíntese</h4>
+            <div class="list-group mt-3">
+              <a href="./aulas/introducao.html" class="list-group-item list-group-item-action fw-semibold">Introdução</a>
+              <a href="./aulas/aprofundamento-1.html" class="list-group-item list-group-item-action fw-semibold">Aprofundamento: Como ocorre a fotossíntese</a>
+              <a href="./aulas/aprofundamento-2.html" class="list-group-item list-group-item-action fw-semibold">Aprofundamento: As duas fases da fotossíntese</a>
+              <a href="./aulas/conclusao.html" class="list-group-item list-group-item-action fw-semibold">Conclusão do módulo</a>
+              <a href="./aulas/exercicios.html" class="list-group-item list-group-item-action fw-semibold">Exercícios</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

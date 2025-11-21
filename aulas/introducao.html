@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Protótipo Bootstrap" />
+	<meta property="og:description" content="Protótipo TCC (Bootstrap)" />
+	<meta name="description" content="Protótipo TCC (Bootstrap)"/>
+	
+	<link rel="stylesheet" href="../assets/app.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%' y='60%' text-anchor='middle' dominant-baseline='middle' font-size='65'>🍄</text></svg>">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+	<title>Introdução</title>
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark py-3" aria-label="Navbar">
+		<div class="container d-flex gap-3 justify-content-start">
+			<a class="text-decoration-none text-bg-dark fw-semibold hover-opacity" href="../index.html" aria-label="Botão para home">Home</a>
+			<button class="text-bg-dark fw-semibold border-0 hover-opacity" aria-label="Botão para abrir menu"
+				data-bs-toggle="offcanvas" 
+        data-bs-target="#menuLateral" 
+        aria-controls="menuLateral">Menu</button>
+		</div>
+	</nav>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral" aria-labelledby="menuLateralLabel">
+		<div class="offcanvas-header border-bottom">
+			<h6 class="offcanvas-title" id="menuLateralLabel">Menu - Módulo 1</h6>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar menu"></button>
+		</div>
+		<div class="offcanvas-body p-0">
+			<div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary" style="width: 100%;">
+				<div class="list-group list-group-flush border-bottom scrollarea">
+					<a href="../index.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Home</a>
+					<a href="./introducao.html" class="list-group-item list-group-item-action py-4 active fw-semibold fs-6" aria-current="true">Introdução</a>
+					<a href="./aprofundamento-1.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Aprofundamento: Como ocorre a fotossíntese</a>
+					<a href="./aprofundamento-2.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Aprofundamento: As duas fases da fotossíntese</a>
+					<a href="./conclusao.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Conclusão do módulo</a>
+					<a href="./exercicios.html" class="list-group-item list-group-item-action py-4 fw-semibold fs-6">Exercícios</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main class="pb-5">
+		<div class="py-6 bg-lightgray">
+			<div class="tight-container">
+				<p class="fs-7">Parte 1 de 5</p>
+				<h2 class="fw-bold">Introdução</h2>
+			</div>
+    </div>
+		<div class="tight-container py-5 text-responsive">
+			<p class="mt-lg-3 fw-bold">Olá, Aluno(a)!</p>
+			<p class="mt-lg-4">Nesta aula, estamos iniciando o Módulo 1 – Fotossíntese. Aqui, você é o nosso convidado(a) para compreender um dos processos biológicos mais importantes para a vida na Terra.</p>
+			<p class="mt-lg-4">Você será convidado(a) a estudar como plantas, algas e algumas bactérias transformam luz solar, água e gás carbônico em energia química, além de refletir sobre a importância desse processo para os ecossistemas e a sobrevivência de todos os seres vivos.</p>
+			<p class="mt-lg-4">Ao longo deste módulo, exploraremos as etapas da fotossíntese, seus principais componentes e como eles garantem que a energia do Sol se converta em vida, fornecendo oxigênio e alimento para diversas espécies.</p>
+			<p class="mt-lg-4">A fotossíntese é o processo pelo qual as plantas, algas e algumas bactérias produzem seu próprio alimento utilizando a energia da luz solar. Esse processo é essencial para a vida na Terra, pois fornece oxigênio e energia química para quase todos os seres vivos. Sem a fotossíntese, não existiriam cadeias alimentares nem o equilíbrio de gases na atmosfera.</p>
+		</div>
+
+		<a href="./aprofundamento-1.html" class="tight-container text-center d-block btn btn-dark py-2 fw-semibold">Continuar</a>
+	</main>
+</body>
+</html>
